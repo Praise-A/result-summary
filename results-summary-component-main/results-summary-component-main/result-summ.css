@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p{
+    font-size: 1.125rem;
+    margin: 10% 0%;
+}
+
+.result-container {
+    border-radius: 7%;
+    display: flexbox;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    box-shadow: 8px 8px 25px rgb(225, 223, 223);
+}
+
+.score-background {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 7%;
+    text-align: center;
+}
+
+.score-circle {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+}
+
+.result-tag {
+    color: hsl(241, 100%, 89%);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.great {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.desc {
+    color: hsl(241, 100%, 89%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    padding: 2% 5%;
+}
+
+.result-score {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    display: inline;
+    margin-bottom: 0%;
+}
+.of-100 {
+    color: hsl(241, 100%, 89%);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -15%;
+}
+
+.summary {
+    font-weight: 700;
+}
+
+.item {
+    margin: 14% 3%;
+}
+
+.reaction {
+    background-color: rgb(225, 244, 244);
+}
+.d-react {
+    color: rgb(236, 170, 146);
+    margin: 0% 30% 0% 2%;
+}
+.memory {
+    background-color: rgb(245, 241, 220);
+}
+.d-mem {
+    color: rgb(255, 187, 0);
+    margin: 0% 30% 0% 2%;
+}
+.verbal {
+    background-color: rgb(242, 255, 252);
+}
+.d-ver {
+    color: rgb(11, 163, 11);
+    margin: 0% 35% 0% 2%;
+}
+.visual {
+    background-color: rgb(240, 240, 255);
+}
+.d-vis {
+    color: rgb(18, 18, 219);
+    margin: 0% 35% 0% 2%;
+}
+
+.score {
+    display: inline;
+    justify-content: end;
+}
+.hundred {
+    font-weight: 520;
+    font-size: 14px;
+    
+}
+.eighty {
+    font-weight: 700;
+}
+.ninety-two {
+    font-weight: 700;
+}
+.sixty-one {
+    font-weight: 700;
+}
+.seventy-two {
+    font-weight: 700;
+}
+
+
+
+.btn-primary {
+    width: 100%;
+    border-radius: 3.125rem;
+    background-color: hsl(224, 30%, 27%);
+}
