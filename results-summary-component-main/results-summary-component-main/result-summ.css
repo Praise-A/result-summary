@@ -25,15 +25,18 @@ p{
     display: flexbox;
     margin-left: 28%;
     margin-right: 28%;
-    margin-top: 9%;
+    margin-top: 10%;
     margin-bottom: 9%;
     box-shadow: 8px 8px 25px rgb(225, 223, 223);
 }
 
-.score-background {
+.left {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 7%;
     text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .score-circle {
@@ -41,9 +44,10 @@ p{
     height: 150px;
     width: 150px;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     justify-content: center;
     align-items: center;
@@ -57,11 +61,11 @@ p{
 }
 
 .great {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 25px;
     color: white;
-    margin-top: 10%;
-    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 3%;
     text-align: center;
 }
 
@@ -86,15 +90,18 @@ p{
     color: white;
     font-weight: 800;
     font-size: 50px;
-    display: inline;
-    margin-bottom: 0%;
+    margin: 0;
 }
 .of-100 {
     color: hsl(241, 100%, 89%);
-    display: block;
     font-size: 14px;
     font-weight: 500;
-    margin-top: -15%;
+    margin: 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
 }
 
 .summary {
@@ -103,6 +110,12 @@ p{
 
 .item {
     margin: 14% 3%;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 10px 2px;
+    width: 90%;
 }
 
 .reaction {
@@ -159,7 +172,9 @@ p{
 
 
 .btn-primary {
+    margin-top: 20px;
+    font-weight: 500;
     width: 100%;
-    border-radius: 3.125rem;
+    border-radius: 20px;
     background-color: hsl(224, 30%, 27%);
 }
